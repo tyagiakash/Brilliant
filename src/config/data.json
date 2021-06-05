@@ -1,0 +1,77 @@
+{
+  "chapters": [
+    {
+      "chapterNo": 1,
+      "data": {
+        "title": "Introduction",
+        "subtitle": "Put your logic to the test with these warmups!",
+        "cardData": [
+          {
+            "id": 1,
+            "imageUri": "https://ds055uzetaobb.cloudfront.net/brioche/chapter/Warmup_Puzzles-T6zgwD-6TgfYy.png?width=280",
+            "title": "Warmup Puzzles",
+            "subtitle": "Get started with some logic warmups."
+          },
+          {
+            "id": 2,
+            "imageUri": "https://ds055uzetaobb.cloudfront.net/brioche/chapter/Truth-Seeking-c83EPA.png?width=280",
+            "title": "Truth-Seeking",
+            "subtitle": "Who or what is telling the truth?"
+          },
+          {
+            "id": 3,
+            "imageUri": "https://ds055uzetaobb.cloudfront.net/brioche/chapter/Machine_Logic_and_Strategy-jrTuIK-2FIeRk.png?width=280",
+            "title": "Strategic Deductions",
+            "subtitle": "Stretch the information you're given as far as it can go!"
+          }
+        ]
+      }
+    },
+    {
+      "chapterNo": 2,
+      "data": {
+        "isPremium": "true",
+        "title": "The Rational Detective",
+        "subtitle": "Eliminate the impossible and uncover the truth!",
+        "cardData": [
+          {
+            "id": 1,
+            "imageUri": "https://ds055uzetaobb.cloudfront.net/brioche/chapter/Riddles_of_Order-uVO6uP.png?width=280",
+            "title": "Riddles of Order",
+            "subtitle": "What order do these racers finish in?"
+          },
+          {
+            "id": 2,
+            "imageUri": "https://ds055uzetaobb.cloudfront.net/brioche/chapter/Crafty_Counting-MyeNyB.png?width=280",
+            "title": "Crafty Counting",
+            "subtitle": "Learn Strategies for counting that go far beyond just counting."
+          },
+          {
+            "id": 3,
+            "imageUri": "https://ds055uzetaobb.cloudfront.net/brioche/chapter/Futoshiki-bNVmO9.png?width=280",
+            "title": "Futoshiki",
+            "subtitle": "Arrange the numbers to match the inequalities."
+          },
+          {
+            "id": 4,
+            "imageUri": "https://ds055uzetaobb.cloudfront.net/brioche/chapter/Shuffles-GgH8Ox.png?width=280",
+            "title": "Suffles",
+            "subtitle": "Where did everything get suffled to."
+          },
+          {
+            "id": 5,
+            "imageUri": "https://ds055uzetaobb.cloudfront.net/brioche/chapter/Mystery_Containers-jce39Z.png?width=280",
+            "title": "Mystery Containers",
+            "subtitle": "What is in each of these boxes?"
+          },
+          {
+            "id": 6,
+            "imageUri": "https://ds055uzetaobb.cloudfront.net/brioche/chapter/False_Information-WRykiD.png?width=280",
+            "title": "False Information",
+            "subtitle": "Solve problems where the people giving you hints might be lying."
+          }
+        ]
+      }
+    }
+  ]
+}
