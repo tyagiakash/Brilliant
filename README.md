@@ -39,18 +39,18 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-###Third Party Libraries used: 
+# Third Party Libraries used: 
 
-# react-bootstrap,bootstarp : React Bootstrap for implementing Buttons,Progress bars and bootsrap for UI design.
+react-bootstrap,bootstarp : React Bootstrap for implementing Buttons,Progress bars and bootsrap for UI design.
 
-# html-react-parser : used for converting html strings into react elements
+html-react-parser : used for converting html strings into react elements
 
-# react-bootstrap-icons : used for implemeting bootstrap  icons
+react-bootstrap-icons : used for implemeting bootstrap  icons
 
-# react-dnd : used for implementing complex drag and drop behaviour
+react-dnd : used for implementing complex drag and drop behaviour
 
-# react-dnd-html5-backend : used for backend behaviour for drag and drop ,Since we are just using browsers tool to implement drag and drop
+react-dnd-html5-backend : used for backend behaviour for drag and drop ,Since we are just using browsers tool to implement drag and drop
 
-# react-router-dom : used for navigating between different comonents , changing the browser Url and keeping state of Ui sync.
+react-router-dom : used for navigating between different comonents , changing the browser Url and keeping state of Ui sync.
 
 
