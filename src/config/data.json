@@ -4,6 +4,7 @@
       "chapterNo": 1,
       "data": {
         "title": "Introduction",
+        "isPremium": false,
         "subtitle": "Put your logic to the test with these warmups!",
         "cardData": [
           {
@@ -30,7 +31,7 @@
     {
       "chapterNo": 2,
       "data": {
-        "isPremium": "true",
+        "isPremium": true,
         "title": "The Rational Detective",
         "subtitle": "Eliminate the impossible and uncover the truth!",
         "cardData": [

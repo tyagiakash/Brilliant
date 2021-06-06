@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "react-bootstrap";
 
-function AppCard({ data }) {
+function AppCard({ data, onClick }) {
   return (
     <div className="border text-center p-5 bg-white">
       <img src={data.image} className="mb-2" alt="card" />
@@ -14,7 +14,7 @@ function AppCard({ data }) {
         ))}
       </div>
       <div className="d-grid gap-2 mt-2">
-        <Button size="lg" variant="dark">
+        <Button onClick={onClick} size="lg" variant="dark">
           {data.buttonTitle}
         </Button>
       </div>

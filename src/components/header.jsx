@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useHistory } from "react-router-dom";
 import AppModal from "./appModal";
 import ModalItemComponent from "./modalItemComponent";
 import AppCard from "./appCard";
@@ -6,6 +7,7 @@ import AppCard from "./appCard";
 function Header({ headerData }) {
   const [showContent, setShowContent] = useState(false);
   const [modalShow, setModalShow] = useState(false);
+  let history = useHistory();
   const handleShowMore = (ev) => {
     ev.preventDefault();
     setShowContent(true);
@@ -14,6 +16,10 @@ function Header({ headerData }) {
     ev.preventDefault();
     setModalShow(true);
     console.log(modalShow);
+  };
+
+  const handleClickOnCardBtn = () => {
+    history.push("/puzzle/");
   };
   return (
     <>
@@ -96,7 +102,7 @@ function Header({ headerData }) {
               </a>
             </div>
             <div className="ms-auto col-lg-5 col-xl-4 d-none d-md-none d-lg-block">
-              <AppCard data={headerData} />
+              <AppCard data={headerData} onClick={handleClickOnCardBtn} />
             </div>
           </div>
         </div>

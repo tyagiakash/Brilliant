@@ -59,3 +59,12 @@ code {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+
+.pointer {
+  cursor: pointer;
+}
+
+.anim {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}

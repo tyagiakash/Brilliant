@@ -1,7 +1,14 @@
 import React from "react";
 import Card from "./card";
+import { useHistory } from "react-router-dom";
 
 function Chapter({ data, chapterNo }) {
+  let history = useHistory();
+  const handleOnClick = (id) => {
+    const url = `/puzzle/${data.title.toLowerCase()}/${id}`;
+    if (!data.isPremium) history.push(url);
+  };
+
   return (
     <div className="ps-sm-2 ps-md-5">
       <div className="d-flex align-items-center mt-5">
@@ -27,6 +34,7 @@ function Chapter({ data, chapterNo }) {
             title={item.title}
             subtitle={item.subtitle}
             locked={data.isPremium}
+            onClick={() => handleOnClick(item.id)}
           />
         ))}
       </div>

@@ -21,7 +21,7 @@ function UserLoginItemComponent({ isLogin }) {
         <img
           className="w-100"
           src="https://brilliant.org/site_media/version-3462815dcf/images/product-rocket_withvector_transparent.gif"
-          alt=""
+          alt="brilliant"
         />
       </div>
       <div className="col-12 col-lg-6 p-5">
@@ -48,7 +48,7 @@ function UserLoginItemComponent({ isLogin }) {
           </div>
           <h6 className="mt-5 mb-5">
             {login ? "New User? " : "Existing User? "}
-            <a onClick={handleClick} href="#">
+            <a onClick={handleClick} href="/#">
               {login ? "Sign Up" : "Sign In"}
             </a>{" "}
           </h6>

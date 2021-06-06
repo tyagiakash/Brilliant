@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { ProgressBar } from "react-bootstrap";
 import { LockFill } from "react-bootstrap-icons";
 
-function Card({ image, title, subtitle, locked }) {
+function Card({ image, title, subtitle, locked, onClick }) {
   const [isHover, setIsHover] = useState(false);
 
   const handleMouseEnter = () => {
@@ -17,6 +17,7 @@ function Card({ image, title, subtitle, locked }) {
     <div className="app-card">
       <div className="app-card-body">
         <div
+          onClick={onClick}
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
           className="position-relative"

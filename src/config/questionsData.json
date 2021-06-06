@@ -1,0 +1,33 @@
+{
+  "QuestionsData": [
+    {
+      "type": "1",
+      "htmlData": [
+        "<p>Joseph, Kevin, and Nicholas are 3 brothers, and the following statements about them are all true:</p>",
+        "<ul>",
+        "<li>Joseph is not the youngest.</li>",
+        "<li>Kevin is the oldest.</li>",
+        "<li>Nicholas is not the oldest.</li>"
+      ],
+      "answer": ["Nicholas", "Joseph", "Kevin"],
+      "boxTitles": ["Youngest", "", "Oldest"],
+      "imagesData": [
+        {
+          "id": 1,
+          "image": "https://ds055uzetaobb.cloudfront.net/uploads/eREixHfFwc-p1.png",
+          "imageTitle": "Joseph"
+        },
+        {
+          "id": 2,
+          "image": "https://ds055uzetaobb.cloudfront.net/uploads/zIwV9OLFiO-p2.png",
+          "imageTitle": "Kevin"
+        },
+        {
+          "id": 3,
+          "image": "https://ds055uzetaobb.cloudfront.net/uploads/A8r8kNZ762-p3.png",
+          "imageTitle": "Nicholas"
+        }
+      ]
+    }
+  ]
+}
