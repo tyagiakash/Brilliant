@@ -47,10 +47,10 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 # react-bootstrap-icons : used for implemeting bootstrap  icons
 
-#react-dnd : used for implementing complex drag and drop behaviour
+# react-dnd : used for implementing complex drag and drop behaviour
 
 # react-dnd-html5-backend : used for backend behaviour for drag and drop ,Since we are just using browsers tool to implement drag and drop
 
-#react-router-dom : used for navigating between different comonents , changing the browser Url and keeping state of Ui sync.
+# react-router-dom : used for navigating between different comonents , changing the browser Url and keeping state of Ui sync.
 
 
